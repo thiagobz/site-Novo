@@ -7,10 +7,40 @@ body {
     background-color: rgba(255, 8, 234, 0.973);
 }
 
+h1 {
+    font-size: 2em;
+    color:rgb(104, 52, 163);
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5em;
+    color:rgb(104, 52, 163);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(104, 52, 163);
+}
+
+a.back{
+    position: relative;
+    left: 450px;
+}
+
 main {
-    background-color: white;
+    background-color: rgba(255, 226, 249, 0.952);
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+img.lado{
+    float: right;
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+    
 }
